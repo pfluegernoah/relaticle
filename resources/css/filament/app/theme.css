@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 @import '../../../../vendor/filament/filament/resources/css/theme.css';
 
 @source '../../../../app/Filament';
@@ -223,14 +225,14 @@
 .fi-sidebar {
     @apply h-full bg-white dark:bg-gray-900;
     scrollbar-width: thin;
-    scrollbar-color: theme('colors.gray.400') theme('colors.gray.100');
+    scrollbar-color: #9ca3af #f3f4f6;
 }
 
 /* Sidebar scrollable content area - allow tenant menu to overflow */
 .fi-sidebar-nav {
     @apply overflow-y-auto overflow-x-visible;
     scrollbar-width: thin;
-    scrollbar-color: theme('colors.gray.400') theme('colors.gray.100');
+    scrollbar-color: #9ca3af #f3f4f6;
 }
 
 .fi-sidebar::-webkit-scrollbar {
